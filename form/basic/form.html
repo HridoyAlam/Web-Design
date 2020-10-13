@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<Html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <form action="#" method="">
+            <label for="fname">First Name</label><br>
+            <!-- value used for example-->
+            <!-- id & for worked togther
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname" readonly><br>
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname" disabled><br>
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname" size="5"><br>
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname" maxlength="5"><br>
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname"  autofocus="off"><br>
+            -->
+            <input type="text" id="fname" placeholder="first name" value="hridoy" name="fname"  required><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" placeholder="enter a valid address" name="mail" required><br>
+
+            <label for="pass">Enter password</label><br>
+            <input type="password" id="pass" name="psw" placeholder="password" required><br>
+
+            <!-- in radio checkbox name used a group-->
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name= "gender" value="female"> femle  <br>
+
+            <select name="" id="" multiple>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+                <option value="Australia">Australia</option>
+                <option value="China">China</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Spain">Spain</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+            <br>
+
+            <input type="checkbox" name="langugae" value="Bangla">Bangla
+            <input type="checkbox" name="langugae" value="English">English
+            <input type="checkbox" name="language" value="Spain">Spain
+            <br>
+
+            <textarea name="message" id="" cols="20" rows="5"></textarea><br>
+            <input type="submit" value="Register">
+
+
+        </form>
+
+    </body>
+</Html>
+<!--
+ 1. <form> ...</form>
+ form tag attributes
+ action
+ method
+ enctype
+
+ 2. Input tag attributes
+
+    -value
+    -Readonly(select but not will take input)
+    -Disabled (not selection)
+    -Size(input size)
+    -Maxlength(eg pass: maxlength 10 char)
+    -autocomplete
+    -autofocus (by default )
+    -placeholder
+    -required (must filled up)
+    - multiple
+    - Height and width
+    -type
+        --•text
+        --•password
+        --•email
+        --•submit
+        --•radio
+        --•checkbox
+        --•date
+        --•url
+        --•button
+        --•number
+    -name
+    -value
+    -size
+    -maxlength
+    -checked
+3.<seclet> attributes
+    -name
+    -size
+    -multiple
+
+4. Text area tag attributes
+    -Name
+    -Rows
+    -Cols
+    -Wrap
+5. Option tag attributes
+-->

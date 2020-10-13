@@ -1,0 +1,48 @@
+ 
+/* 
+tag
+h3
+class
+.heading
+id
+.paragraph
+
+*/
+header{
+   background-color: yellow;
+   height: 100px;
+   text-align: center;
+}
+
+.nav{
+   background-color: rgb(247, 247, 59);
+   height: 300px;
+   width: 20%;
+   float: left;
+   margin-right: 10px;
+   text-align: center;
+}
+
+.article{
+   background-color: rgb(255, 255, 36);
+   height: 300px;
+   width: 58%;
+   float: left;
+   text-align: center;
+}
+.sidebar{
+   background-color: rgb(247, 247, 47);
+   height: 300px;
+   width: 20%;
+   float: right;
+   text-align: center;
+}
+.content{
+   margin-top: 20px;
+   overflow: hidden;
+}
+footer{
+   background-color: yellow;
+   height: 100px;
+   text-align: center;
+}

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap');
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+    */
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    color: #28377e;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    color: #b1b0b1;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+
+display: flex;
+justify-content: space-between;
+height: 70px;
+align-items: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+.nav{
+    width: 60%;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.nav ul li{
+    
+    margin: 30px;
+}
+.nav ul li a{
+text-transform: uppercase;
+font-size: 13px; 
+color: #204f87;
+font-weight: 600;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content{
+    width: 560px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+ color: white;
+ font-size: 55px;
+ font-weight: bold;
+}
+.icon{
+position: absolute; 
+bottom: 20%;  
+left: 50%;
+transform: translate(-50%, -20%);
+animation: icon-ani 1s linear infinite;
+animation-direction: alternate;
+}
+.icon i{
+color: white;
+font-size: 24px;
+}
+@keyframes icon-ani{
+    0%{
+        
+            transform: translate(-50%, 0%);
+        
+    }
+    100%{
+        
+            transform: translate(-50%, -100%);
+        }
+    
+}
+.who_we_are_content{
+    margin-top: 70px;
+    width: 50%;
+    float: left;
+    position: relative;
+    /* padding-right: 0px; */
+}
+/*.who_we_are_content::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: tomato;
+    top: -15px;
+}
+*/
+.who_we_are_content::after{
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 70px;
+    background-color: #f15728;
+    top: -5px;
+}
+.who_we_are_content h1{
+    
+margin-top: 15px;
+}
+.who_we_are_content p{
+    
+margin: 20px 0px;
+    
+padding-right: 100px;
+    
+text-align: justify;
+}
+.who_we_are_image{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.who_we_are_image img{
+    width: 50%;
+}
+
+.what_we_do{
+background-image: url(../images/what_we-do-we-side.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+background-color: #f7f8f8;
+}
+.header{
+
+padding: 50px 0px;
+
+width: 225px;
+
+margin: auto;
+
+position: relative;
+
+padding-bottom: 147px;
+}
+.header h1{
+    margin-top: 10px;
+}
+.header::before{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    left: 50%;
+    background: #f15728;
+    transform: translate(-50%);
+}
+.what_we_do_content{
+
+display: flex;
+}
+.items{
+
+padding: 10px;
+
+position: relative;
+}
+.items:hover .what_we{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+
+}
+
+.items i{
+
+position: absolute;
+
+left: 20%;
+
+color: #fff;
+
+font-size: 30px;
+
+transform: translateX(-50%);
+transition: all .4s ease;
+opacity: 0;
+bottom: 20%;
+}
+
+
+.img{
+    position: relative;
+}
+.img::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s ease;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,207cca+43,207cca+43,207cca+46,2989d8+48,2e3386+100&0+0,1+100 */
+    left: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(32,124,202,0.43) 43%, rgba(32,124,202,0.46) 46%, rgba(41,137,216,0.48) 48%, rgba(46,51,134,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(32,124,202,0.43) 43%,rgba(32,124,202,0.46) 46%,rgba(41,137,216,0.48) 48%,rgba(46,51,134,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(32,124,202,0.43) 43%,rgba(32,124,202,0.46) 46%,rgba(41,137,216,0.48) 48%,rgba(46,51,134,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#2e3386',GradientType=0 ); /* IE6-9 */
+}
+.items img{
+
+}
+.items:hover .img::after{
+    opacity: 1;
+    top: 100%;
+}
+.items:hover i{
+    opacity: 1;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+
+.what_we{
+
+color: #fff;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -30%);
+transition: all .4s ease;
+
+text-transform: uppercase;
+}
+.what_we{
+    opacity: 0;
+}
