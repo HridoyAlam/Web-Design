@@ -1,0 +1,71 @@
+.btn-custom{
+    color: cadetblue;
+    background-color: yellow;
+}
+
+
+
+/*
+.content{
+    overflow: hidden;
+    margin: auto;
+}
+.imtem1{
+    height: 100px;
+    background-color: red;
+    float: left;
+    width: 33.33%;
+
+}
+.imtem2{
+    height: 100px;
+    background-color: green;
+    float: left;
+    width: 33.33%;
+}
+.imtem3{
+    height: 100px;
+    background-color: blue;
+    float: right;
+    width: 33.33%;
+}
+
+@media(min-width:575px){
+    .imtem1{
+        background-color: yellow; 
+    }
+}
+@media(min-width:767px){
+    .imtem1{
+        background-color: pink;
+    }
+}
+
+
+
+
+
+max-width :
+
+@media(max-width:992px){
+    .imtem1{
+        background-color: orange;
+    }
+    .imtem2{
+        background-color: black;
+    }
+}
+@media(max-width:767px){
+    .imtem1{
+        pink;
+        background-color: 
+
+    }
+}
+@media(max-width:575px){
+    .imtem1{
+        
+        background-color: yellow; 
+    }
+}
+*/
