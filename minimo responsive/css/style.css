@@ -1,0 +1,22 @@
+header{
+    width: 95%;
+}
+
+.container{
+    background-color: #ffffff;
+}
+.container ul{
+    
+text-transform: uppercase;
+    
+font-style: inherit;
+    
+/* margin-left: 30px; */
+}
+.container ul li{
+    
+margin-left: 45px;
+}
+.images img{
+    width: 100%;
+}
