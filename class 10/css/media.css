@@ -1,0 +1,24 @@
+@media(max-width:575px){
+
+    .logo img {
+        width: 85%;
+    }
+    .content h1{
+        font-size: 60px;
+    }
+    .content span {
+        width: 70%;
+    }
+    .icon-box {
+        height: 90px;
+        width: 90px;
+        font-size: 45px;
+        line-height: 90px;
+    }
+
+}
+@media(max-width:767px){
+    .content span {
+        width: 70%;
+    }
+}
