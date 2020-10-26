@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: linear-gradient(to bottom, #0a2345, #091f3b, #081a32, #071629, #051020);
+    background-repeat: no-repeat;
+}
+.navbar {
+   
+    padding-top: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+   
+    color: #fff;
+}
+.toggle{
+    color: #2a5ea4;
+}
+.navbar-brand img{
+    width: 70%;
+}
+.banner {
+
+}
+h1{
+        
+    color: #fff;
+}
+h1 span{
+     color: #2a5ea4;
+}
+ p{
+    
+    color: #2a5ea4;
+    margin-top: 20px; 
+    margin-bottom: 50px;
+}
+button{
+    color: #fff;  
+    border: 2px solid #183c6e;   
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+button:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
+.feature_row{
+    min-height: 800px;
+    align-items: center;
+}
+.feature{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.first_item{
+    
+}
+.last_item{
+    
+}
+.first_item img{    
+    width: 85%;
+}
+.last_item img{
+    width: 85%;  
+    margin-left: 15%;
+}
+.headphone{
+    background-image: url(../images/headphones.png);
+    background-repeat: no-repeat;
+    background-size: 559px;
+    padding: 85px 0;
+    background-position: left;
+    margin: 30px 0;
+}
+.btn-custom{
+    color: #fff;
+    border: 2px solid #183c6e;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+.btn-custom:hover{
+    color: #fff;
+}
+.feature_one{
+    padding: 30px 0;
+    padding-top: 10px;
+}
+.feature_one h3{
+    color: #fff;
+    font-size: 25px;
+}
+.feature_one p{
+    color: #628bbf;
+}
+.feature_one i{
+    color: #ff3334;
+    font-size: 30px;
+}
+.f_option{
+    background-image: url(../images/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 40px 0;
+    margin: 100px 0;
+}
+.graphic{
+    background-image: url(../images/graphic.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    padding: 90px 0;
+    margin: 100px 0;
+}
